@@ -1,75 +1,82 @@
-#tela-inicial{
-background-image: url("img/download\ \(2\)\ \(1\).jpg");
-background-repeat: no-repeat;
-background-size: cover;
+#tela-inicial {
+    background-image: url("img/download\ \(2\)\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 :root {
 
-  --cor-fundo-2: #eca9d8;
-  --cor-forms: #fcaff5;
-  --cor-texto: #000000;
-  --cor-erro: #c60404;
-  --cor-sucesso: #11c604;
+    --cor-fundo-2: #eca9d8;
+    --cor-forms: #fcaff5;
+    --cor-texto: #000000;
+    --cor-erro: #c60404;
+    --cor-sucesso: #11c604;
 }
 
 * {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #login-cadastro {
-  background-image: url(img/download\ \(3\).jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 5%;
-  color: var(--cor-texto);
-  background-color: var(--cor-fundo);
+    background-image: url(img/download\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5%;
+    color: var(--cor-texto);
+    background-color: var(--cor-fundo);
 }
 
 main {
-  padding: 3%;
-  gap: 1%;
-  border-radius: 10%;
-  box-shadow: 10px 10px 15px rgba(19, 20, 55, 0.3);
-  background-color: var(--cor-fundo-2);
+    padding: 3%;
+    gap: 1%;
+    border-radius: 10%;
+    box-shadow: 10px 10px 15px rgba(19, 20, 55, 0.3);
+    background-color: var(--cor-fundo-2);
 }
 
 #form-login {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
 
 }
 
 #form-login input {
-  padding: 5px;
-  border: solid var(--cor-texto);
+    padding: 5px;
+    border: solid var(--cor-texto);
 }
 
 #form-login button {
-  border: solid var(--cor-texto);
+    border: solid var(--cor-texto);
 }
 
 #form-login button:hover {
-  background-color: var(--cor-texto);
+    background-color: var(--cor-texto);
 }
 
 #erro {
-  color: var(--cor-erro);
-  font-size: 12px;
-  text-align: center;
+    color: var(--cor-erro);
+    font-size: 12px;
+    text-align: center;
 }
 
 .sucesso {
-  color: var(--cor-sucesso);
-  font-size: 12px;
-  text-align: center;
+    color: var(--cor-sucesso);
+    font-size: 12px;
+    text-align: center;
 }
 
-.introducao-comeco{
-    align-items: left;
+.introducao-comeco {
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+}
+
+.btn-btn-primary {
+    background-color: gold;
+    border-radius: 20px;
 }
