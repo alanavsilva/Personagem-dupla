@@ -19,8 +19,6 @@ background-size: cover;
 
 #login-cadastro {
   background-image: url(img/download\ \(3\).jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: flex-start;
