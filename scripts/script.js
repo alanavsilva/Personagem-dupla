@@ -46,7 +46,7 @@ document.getElementById("form-login").onsubmit = (e) => {
             mensagem.innerHTML = '<div class="sucesso"><p>Login com sucesso!</p></div>';
             
             setTimeout(() => {
-                window.location.href = "nome.html";
+                window.location.href = "home.html";
             }, 500);
         } else {
             mensagem.innerHTML = '<div class="error"><p>Email ou senha incorretos!</p></div>';
