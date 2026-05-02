@@ -18,14 +18,14 @@
 }
 
 #login-cadastro {
-  background-image: url(img/download\ \(3\).jpg);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  gap: 5%;
-  color: var(--cor-texto);
-  background-color: var(--cor-fundo);
+    background-image: url(img/download\ \(3\).jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 5%;
+    color: var(--cor-texto);
+    background-color: var(--cor-fundo);
 }
 
 main {
@@ -79,3 +79,10 @@ main {
     background-color: gold;
     border-radius: 20px;
 }
+
+#home-homer {
+    background-image: url("img/homer-simpson-the-5120x2880-9412.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
