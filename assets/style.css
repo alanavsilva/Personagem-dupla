@@ -21,19 +21,11 @@
   background-image: url(img/download\ \(3\).jpg);
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  min-height: 100vh;
   gap: 5%;
   color: var(--cor-texto);
   background-color: var(--cor-fundo);
-    background-image: url(img/download\ \(3\).jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 5%;
-    color: var(--cor-texto);
-    background-color: var(--cor-fundo);
 }
 
 main {

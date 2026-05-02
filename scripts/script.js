@@ -73,12 +73,12 @@ const titulo = document.getElementById("titulo");
 const botao = document.getElementById("botao-envio");
 
 toggle.addEventListener("click", () => {
-    if (titulo.innerText === "login") {
-        titulo.innerText = "cadastro";
+    if (titulo.innerText === "Login") {
+        titulo.innerText = "Cadastro";
         botao.innerText = "Cadastrar";
         toggle.innerHTML = '<p>Já tem conta? <u> Faça login!</u></p>';
     } else {
-        titulo.innerText = "login";
+        titulo.innerText = "Login";
         botao.innerText = "Entrar";
         toggle.innerHTML = '<p>Não tem conta? <u> Cadastre-se!</u></p>';
     }
