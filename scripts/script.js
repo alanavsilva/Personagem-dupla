@@ -1,3 +1,14 @@
+const btnLoginFinal = document.getElementById("btnLoginFinal");
+if (btnLoginFinal) {
+    btnLoginFinal.onclick = (e) => {
+        e.preventDefault();
+        
+        setTimeout(() => {
+            window.location.href = "login.html";
+        }, 500);
+    };
+}
+
 document.getElementById("form-login").onsubmit = (e) => {
     e.preventDefault();
 
@@ -36,7 +47,7 @@ document.getElementById("form-login").onsubmit = (e) => {
         
         
         setTimeout(() => {
-            window.location.href = "nome.html";
+            window.location.href = "home.html";
         }, 1000);
         
     } else {
@@ -72,3 +83,4 @@ toggle.addEventListener("click", () => {
         toggle.innerHTML = '<p>Não tem conta? <u> Cadastre-se!</u></p>';
     }
 });
+
