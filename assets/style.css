@@ -86,3 +86,17 @@ main {
     background-size: cover;
 }
 
+ 
+        .bd-placeholder-img {
+            font-size: 600px;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+        
+        @media (min-width: 600px) {
+            .bd-placeholder-img-lg {
+                font-size: 2.5rem;
+            }
+        }
