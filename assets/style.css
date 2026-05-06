@@ -107,3 +107,8 @@ main {
             background-color: rgb(235, 165, 107);
             size: 400px;
         }
+.texto_historia{
+   background-color: #ffecac;
+ padding: 70px;
+ text-align: center;
+}
